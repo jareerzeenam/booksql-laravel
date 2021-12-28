@@ -10,7 +10,7 @@ class Book extends Model
 {
     use HasFactory;
     
-    protected $suarded = [];
+    protected $guarded = [];
 
     public function category()
     {
